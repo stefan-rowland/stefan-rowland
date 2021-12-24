@@ -14,8 +14,11 @@ const anmol = {
     code: ["Javascript", "TypeScript", "Python", "PHP"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
+        frontEnd: {
+            frameworks: ["React", "Vue", "Angular", "Gatsby"]
+        },
         backEnd: {
-            general: ["Node", "Express", "Nest.js", "Laravel"],
+            frameworks: ["Node", "Express", "Nest.js", "Laravel"]
         },
         mobileApp: {
             native: ["Android Development"]
